@@ -1,0 +1,34 @@
+.teamsContainer {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.teamsTitle {
+    font-size: 24pt;
+    font-family: AppleGothic;
+    color: darkgray;
+    padding-bottom: 22px;
+}
+
+.teamContainer {
+    margin-top: 52px;
+}
+
+.teamNameActive {
+    font-size: 22pt;
+    font-family: AppleGothic;
+    color: azure;
+    border: 3px solid royalblue;
+    border-radius: .5em;
+    display: inline;
+    padding: 12px 22px;
+    cursor: pointer;
+}
+
+.teamNameDone {
+    font-size: 22pt;
+    font-family: AppleGothic;
+    color: white;
+    display: inline;
+    cursor: default;
+}

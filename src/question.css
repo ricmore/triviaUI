@@ -1,0 +1,85 @@
+.questionText {
+    font-size: 36pt;
+    font-family: AppleGothic;
+    color: azure;
+}
+
+.questionTarget {
+    font-size: 21pt;
+    font-family: AppleGothic;
+    color: darkgray;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+
+.questionWrapper {
+    padding-top: 4%;
+    text-align: center;
+}
+
+.optionsWrapper {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.option {
+    font-size: 22pt;
+    font-family: AppleGothic;
+    display: block;
+    width: 60%;
+    border: 2px solid royalblue;
+    border-radius: .3em;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-left: 20%;
+}
+
+.notSelected {
+    color: lightblue;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: darkblue;
+    color: white;
+    cursor: default;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    cursor: default;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+    cursor: default;
+}
+
+.notSelected:hover {
+    background-color: royalblue;
+}
+
+.button {
+    color: lightblue;
+    font-size: 22pt;
+    font-family: AppleGothic;
+    display: block;
+    width: 60%;
+    border: 2px solid royalblue;
+    border-radius: .3em;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.answerButton {
+    background-color: royalblue;
+}
+
+.buttonWrapper {
+    text-align: center;
+    padding-top: 20px;
+}
